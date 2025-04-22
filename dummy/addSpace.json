@@ -1,0 +1,19 @@
+{
+    "firstName": "Lorem",
+    "lastName": "Ipsum",
+    "occupation": "Staff",
+    "musicCultureRegion": [
+        "Europe"
+    ],
+    "hiring": [
+        "Freelance"
+    ],
+    "company": "Google",
+    "location": "America",
+    "state": "North America",
+    "city": "washington",
+    "websiteUrl": "null",
+    "aboutMe": "lorem ipsum dulur sit amet about me example",
+    "softwareTool": "null",
+    "profilePicture": "binary"
+}

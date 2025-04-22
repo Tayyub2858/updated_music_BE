@@ -1,0 +1,14 @@
+{
+    "projectTitle": "Example Title",
+    "category": [
+        "produce",
+        "compose",
+        "write lyric"
+    ],
+    "isHaveLyric": true,
+    "lyricLanguage": "null",
+    "budget": "$100",
+    "timeFrame": "in a month",
+    "preferredLocation": "null",
+    "desription": "this is the description example"
+}

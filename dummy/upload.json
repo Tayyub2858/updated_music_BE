@@ -1,0 +1,27 @@
+{
+    "songName": "Example Song Name",
+    "uploaderRole": [
+        "composer",
+        "producer"
+    ],
+    "singerName": "Example Singer",
+    "publisher": "Example Publisher",
+    "publishTime": "2024-06-06",
+    "songLanguage": "English",
+    "musicCulturalRegion": "Europe",
+    "musicUsage": "Example Usage",
+    "musicStyle": "Example Style",
+    "filmGenre": "",
+    "gameGenre": "",
+    "musicImage": "Example Image",
+    "musicAudio": "Example Audio",
+    "musicLyric": "",
+    "musicBackground": "Example Music Background",
+    "musicInstrumental": "",
+    "tags": [
+        "pop",
+        "new music"
+    ],
+    "describe": "Example Describe",
+    "softwareTool": "Example Tool"
+}

@@ -1,0 +1,39 @@
+Step 1: Direct the buyer to approve the order using the approve link.
+
+First call this API to create the Order
+http://localhost:3000/v1/paypal/api/orders
+
+It will return this data
+{
+    "id": "90A09746NX9798847",
+    "status": "CREATED",
+    "links": [
+        {
+            "href": "https://api.sandbox.paypal.com/v2/checkout/orders/90A09746NX9798847",
+            "rel": "self",
+            "method": "GET"
+        },
+        {
+            "href": "https://www.sandbox.paypal.com/checkoutnow?token=90A09746NX9798847",
+            "rel": "approve",
+            "method": "GET"
+        },
+        {
+            "href": "https://api.sandbox.paypal.com/v2/checkout/orders/90A09746NX9798847",
+            "rel": "update",
+            "method": "PATCH"
+        },
+        {
+            "href": "https://api.sandbox.paypal.com/v2/checkout/orders/90A09746NX9798847/capture",
+            "rel": "capture",
+            "method": "POST"
+        }
+    ]
+}
+The use this link to approve the payment
+https://www.sandbox.paypal.com/checkoutnow?token=90A09746NX9798847
+
+
+Step 2: Once the order is approved, use the capture link to finalize the transaction.
+
+http://localhost:3000/v1/paypal/api/orders/90A09746NX9798847/capture
