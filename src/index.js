@@ -16,7 +16,7 @@ const httpServer = http.createServer(app);
 const io = new Server(httpServer, {
   cors: {
     origin: '*', // Configured allowed origins
-    methods: ['GET', 'POST','PUT', 'DELETE','PATCH'], // Configured allowed methods
+    methods: ['GET', 'POST','PUT', 'DELETE','PATCH'], 
   },
 });
 mongoose.set('useFindAndModify', false); // Disable deprecated findAndModify warnings
